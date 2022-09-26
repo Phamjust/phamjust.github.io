@@ -1,0 +1,29 @@
+baseURL: "https://phamjust.github.io/"
+title: Justin Pham's Resume
+theme: PaperMod
+
+enableEmoji: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+params:
+  title: Justin Pham's Resume
+  description: "A Static website for Justin Pham's resume built using Hugo"
+  Keywords: [Resume, Portfolio, Hugo, PaperMod]
+  DateFormat: "September 16, 2022"
+  defaultTheme: dark
+  disableThemeToggle: true
+  ShowShareButtons: true
+  ShareButtons: ["linkedin", "github"]
+
+  socialIcons:
+  - name: linkedin
+    url: "https://www.linkedin.com/in/offcialjustinpham/" 
+  - name: github
+    url: "https://github.com/Phamjust/"
+
+  homeInfoParams:
+      Title: "Hello!"
+      Content: >
+          Welcome to my website where I host my resume.
