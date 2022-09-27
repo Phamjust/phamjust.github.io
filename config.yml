@@ -1,6 +1,7 @@
 baseURL: "https://phamjust.github.io/"
 title: Justin Pham's Resume
 theme: PaperMod
+paginate: 10
 
 enableEmoji: true
 buildDrafts: false
