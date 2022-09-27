@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          submodule: true #fetch hugo themes (true or recursive)
+          submodule: recursive #fetch hugo themes (true or recursive)
           fetch-depth: 0 #fetch all history for .GetInfo and .Lastmod
 
       - name: Setup hugo
