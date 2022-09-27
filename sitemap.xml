@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://phamjust.github.io/</loc>
     <lastmod>2022-09-15T22:36:02-04:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/resume/</loc>
+    <loc>https://phamjust.github.io/tags/resume/</loc>
     <lastmod>2022-09-15T22:36:02-04:00</lastmod>
   </url><url>
-    <loc>http://example.org/firstpost/</loc>
+    <loc>https://phamjust.github.io/firstpost/</loc>
     <lastmod>2022-09-15T22:36:02-04:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://phamjust.github.io/tags/</loc>
     <lastmod>2022-09-15T22:36:02-04:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://phamjust.github.io/categories/</loc>
   </url>
 </urlset>
