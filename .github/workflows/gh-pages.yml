@@ -6,7 +6,7 @@ on:
       - "LICENSE"
       - "README.md"
     branches:
-      - main
+      
       - gh-pages
   pull_request:
 
