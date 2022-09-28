@@ -25,7 +25,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          ref: gh-pages
           submodule: true #fetch hugo themes (true or recursive)
           fetch-depth: 0 #fetch all history for .GetInfo and .Lastmod
 
