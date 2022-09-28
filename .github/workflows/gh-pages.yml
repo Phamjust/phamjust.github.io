@@ -2,7 +2,7 @@ name: Deploy hugo site via github actions
 on:
   push:
     branches:
-      - gh-pages
+      - main
   pull_request:
 
 env: 
@@ -19,6 +19,8 @@ jobs:
   Deploy-dev-env:
     name: Deploy to phamjust.github.io
     runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
