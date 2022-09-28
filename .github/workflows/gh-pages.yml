@@ -2,7 +2,7 @@ name: Deploy hugo site via github actions
 on:
   push:
     branches:
-      - main
+      - gh-pages
   pull_request:
 
 env: 
