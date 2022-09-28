@@ -1,22 +1,35 @@
-name: Static site pipeline
+name: Deploy hugo site via github actions
 on:
   push:
+    paths-ignore:
+      - "images/**"
+      - "LICENSE"
+      - "README.md"
     branches:
       - main
+      - gh-pages
   pull_request:
 
 env: 
   URL_DEV: phamjust.github.io
   URL_PRO: justinpham.info
 
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   Deploy-dev-env:
     name: Deploy to phamjust.github.io
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
-          submodule: recursive #fetch hugo themes (true or recursive)
+          ref: gh-pages
+          submodule: true #fetch hugo themes (true or recursive)
           fetch-depth: 0 #fetch all history for .GetInfo and .Lastmod
 
       - name: Setup hugo
