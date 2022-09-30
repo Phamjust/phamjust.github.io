@@ -4,11 +4,16 @@ theme: PaperMod
 languageCode: "en-us"
 paginate: 10
 
+enableRobotsTXT: true
 enableEmoji: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
 
+minify:
+    disableXML: true
+
+    
 params:
   title: Justin Pham's Resume
   description: "A Static website for Justin Pham's resume built using Hugo"
@@ -17,7 +22,7 @@ params:
   defaultTheme: dark
   disableThemeToggle: true
   ShowShareButtons: true
-  ShareButtons: ["linkedin", "github"]
+  # ShareButtons: ["linkedin", "github"] //Not sure where this came from
 
   socialIcons:
   - name: linkedin

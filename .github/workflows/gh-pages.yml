@@ -41,4 +41,7 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          # Note that the GITHUB_TOKEN is NOT a personal access token. 
+          # A GitHub Actions runner automatically creates a GITHUB_TOKEN secret to authenticate in your workflow.
+          # So, you can start to deploy immediately without any configuration
           publish_dir: ./public
