@@ -8,7 +8,7 @@ comments: false
 description: "my resume"
 cover:
     #image: "https://github.com/Phamjust/ResumeSite-Git/blob/main/Hugo-resume_site/spongebob.jpg?raw=true"
-    image: "https://github.com/Phamjust/phamjust.github.io/blob/main/spongebob.jpgraw=true"
+    image: "https://github.com/Phamjust/phamjust.github.io/blob/main/spongebob.jpg?raw=true"
     
 ---
 
