@@ -13,7 +13,7 @@ buildExpired: false
 relativeURLs: true
 
 minify:
-    disableXML: true
+  disableXML: true
 
     
 params:
@@ -24,7 +24,7 @@ params:
   defaultTheme: dark
   disableThemeToggle: true
   ShowShareButtons: true
-  # ShareButtons: ["linkedin", "github"] //Not sure where this came from
+  ShareButtons: ["linkedin", "github"]  #Not sure where this came from
 
   socialIcons:
   - name: linkedin
