@@ -58,7 +58,7 @@ jobs:
         fetch-depth: 0
 
     - name: Install SSH key
-      run: shimataro/ssh-key-actions@v2
+      uses: shimataro/ssh-key-actions@v2
       with:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         known_hosts: 'temp placeholder'
