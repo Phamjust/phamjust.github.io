@@ -79,7 +79,7 @@ jobs:
       run: ssh-keyscan -H ${{ secrets.KNOWN_HOSTS }} >> ~/.ssh/known_hosts
 
     - name: Copy files over to sever
-      run: rsync -av ./public/ root@$ {{ secrets.SERVER_IP }}:/var/www/${{ env.URL_PRO }} # -av are two different flags here
+      run: rsync -av ./public/ root@${{ secrets.SERVER_IP }}:/var/www/${{ env.URL_PRO }} # -av are two different flags here
 
   
 
