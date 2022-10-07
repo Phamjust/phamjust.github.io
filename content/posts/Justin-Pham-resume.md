@@ -4,7 +4,7 @@ date: 2022-10-07T15:38:36-04:00
 tags: ["resume"]
 author: "Justin Pham"
 comments: false
-description: "my actual resume"
+# description: "my actual resume"
 cover:
     image: "https://raw.githubusercontent.com/Phamjust/phamjust.github.io/main/SRE%20Resume.jpg?raw=true"
     
@@ -21,10 +21,11 @@ If you are interested in hiring me, you can find my resume at this [link](https:
 
 ## About this website
 This site is generated with [Hugo](https://gohugo.io/).
-##Purpose
+
+## Purpose
 * Learn the basics of devops through a hands on project
 
-##Steps Taken
+## Steps Taken
 * Provision droplet with Terraform.
 * Setup DNS for Domain with Terraform.
 * Using Ansible, configure Droplet user account, SSH key, and setup Nginx webserver.
