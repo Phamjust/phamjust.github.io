@@ -20,12 +20,12 @@ If you are interested in hiring me, you can find my resume at this [link](https:
 :email: **minijtp[at]yahoo[dot]com**
 
 ## About this website
-This site is generated with [Hugo](https://gohugo.io/).
+This site is generated with [Hugo](https://gohugo.io/) and hosted through an Nginx websever, using a Digital Ocean Droplet.
 
-## Purpose
-* Learn the basics of devops through a hands on project
+### Purpose
+* Learn the basics of devops through a hands on project.
 
-## Steps Taken
+### Steps Taken
 * Provision droplet with Terraform.
 * Setup DNS for Domain with Terraform.
 * Using Ansible, configure Droplet user account, SSH key, and setup Nginx webserver.
