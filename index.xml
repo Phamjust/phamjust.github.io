@@ -16,8 +16,8 @@
       <description>Hello, World! 👋 My name is Justin Pham an I am hosting this website to find a job in the devops market.
 If you are interested in hiring me, you can find my resume at this link.
 Contact info ✉️ minijtp[at]yahoo[dot]com
-About this website This site is generated with Hugo.
-Purpose Learn the basics of devops through a hands on project Steps Taken Provision droplet with Terraform. Setup DNS for Domain with Terraform.</description>
+About this website This site is generated with Hugo and hosted through an Nginx websever, using a Digital Ocean Droplet.
+Purpose Learn the basics of devops through a hands on project.</description>
     </item>
     
   </channel>
