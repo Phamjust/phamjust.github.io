@@ -49,7 +49,7 @@ jobs:
   Deploy-prod-env:
     name: Deploy to www.justinpham.com (droplet)
 
-    needs: Deploy-dev-env
+    #needs: Deploy-dev-env
     runs-on: self-hosted
 
     steps:
