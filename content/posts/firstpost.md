@@ -1,7 +1,7 @@
 ---
 title: "Resume-firstpost"
 date: 2022-09-15T22:36:02-04:00
-# draft: false
+draft: true
 tags: ["resume"]
 author: "Justin Pham"
 comments: false
