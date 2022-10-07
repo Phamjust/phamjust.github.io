@@ -48,8 +48,9 @@ jobs:
 
   Deploy-prod-env:
     name: Deploy to www.justinpham.com (droplet)
+
     needs: Deploy-dev-env
-    runs-on: ubantu-latest
+    runs-on: self-hosted
 
     steps:
     - name: Checkout
