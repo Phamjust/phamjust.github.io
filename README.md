@@ -1,6 +1,7 @@
 # Hello there! 👋
 
 This repository stores code for my static site that hosts my resume.
+You can take a look at the website [here](www.justinpham.info).
 
 ## About this website
 This site is generated with [Hugo](https://gohugo.io/) and hosted through an Nginx websever, using a Digital Ocean Droplet.
