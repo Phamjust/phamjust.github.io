@@ -13,7 +13,7 @@ cover:
 
 My name is Justin Pham an I am hosting this website to find a job in the devops market.
 
-If you are interested in hiring me, you can find my resume at this [link](https://raw.githubusercontent.com/Phamjust/phamjust.github.io/main/SRE%20Resume.jpg).
+If you are interested in hiring me, you can find my resume at this [link](https://github.com/Phamjust/phamjust.github.io/blob/main/SRE%20Resume.pdf).
 
 ## Contact info
 
