@@ -11,7 +11,7 @@ cover:
 ---
 # Hello, World! 👋
 
-My name is Justin Pham an I am hosting this website to find a job in the IT market.
+My name is Justin FLAM an I am hosting this website to find a job in the IT market.
 
 If you are interested in hiring me, you can find my resume at this [link](https://github.com/Phamjust/phamjust.github.io/blob/main/SRE%20Resume.pdf).
 
