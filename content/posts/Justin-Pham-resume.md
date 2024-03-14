@@ -17,9 +17,9 @@ If you are interested in hiring me, you can find my resume at this [link](https:
 
 ## Contact info
 
-:email: **minijtp[at]yahoo[dot]com**
+:email: **minijtp@yahoo.com**
 
-## About this website
+### About this website
 This site is generated with [Hugo](https://gohugo.io/) and hosted through an Nginx websever, using a Digital Ocean Droplet.
 
 ### Purpose
